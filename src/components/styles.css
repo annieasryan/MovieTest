@@ -1,0 +1,92 @@
+
+.sidebar {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  justify-content: space-between;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.sidebar.expanded {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 200px; 
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 150px;
+  height: 80%;
+  width: 136px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: width 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+  border-radius: 0;
+}
+
+.menu-item .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu-item .text {
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  color: white;
+}
+
+.menu-item:hover {
+  width: 150px;
+  background-color: #3b486d;
+  border-radius: 8px; 
+}
+
+.menu-item:hover .text {
+  width: auto;
+  opacity: 1;
+}
+
+.bottom-buttons {
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bottom-buttons.show {
+  display: flex;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+}
+ 
+.bottom-button {
+  background: none;
+  color: white;
+  border: none;
+  text-align: left;
+  padding: 10px 15px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease, width 0.3s ease, border-radius 0.3s ease;
+}

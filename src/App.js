@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import data from "./data/data.json";
+import MainMenu from "./components/mainMenu";
+import FeaturedVideo from "./components/featuredVideo";
+import TrendingSection from "./components/trendingSection";
+import './index.css'
 
 function App() {
+
+  const [selectedVideo, setSelectedVideo] = useState(data.Featured);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='h-screen w-screen'>
+      <MainMenu />
+      <FeaturedVideo selectedMovie={selectedVideo} />
+      <TrendingSection onVideoClick={setSelectedVideo} />
     </div>
   );
 }
