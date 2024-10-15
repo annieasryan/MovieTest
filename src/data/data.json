@@ -22,7 +22,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "2000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2024/06/20/217490_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -35,7 +35,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "2300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2024/06/20/217490_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -48,7 +48,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2022/05/23/117898-713302655_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -87,7 +87,7 @@
 			"MpaRating": "18+",
 			"Category": "TV Show",
 			"Duration": "1200",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2022/05/23/117898-713302655_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -139,7 +139,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6000",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2023/02/02/149068-795426960_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -178,7 +178,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "6500",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2023/02/02/149068-795426960_large.mp4",
 			"Description": "Info About it"
 		},
 		{
@@ -204,7 +204,7 @@
 			"MpaRating": "18+",
 			"Category": "Movie",
 			"Duration": "1300",
-			"VideoUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+			"VideoUrl": "https://cdn.pixabay.com/video/2022/05/23/117898-713302655_large.mp4",
 			"Description": "Info About it"
 		},
 		{
